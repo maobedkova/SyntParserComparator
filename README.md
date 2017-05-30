@@ -8,4 +8,5 @@ compare_parsers(<path to golden standard file>,
 ```
 
 NB! Works only with conll(u) format.
+
 NB! numpy==1.11.3 is required.
