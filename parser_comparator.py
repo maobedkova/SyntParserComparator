@@ -78,8 +78,8 @@ def syntaxnet_debugger(input_file, output_file):
                         w.write(line)
 
 
-def compare_parsers(golden_standard_file, udpipe_file)#, syntaxnet_file, rusyntax_file):
-    '''The function for comparing different syntactic parsers'''
+def compare_parsers(golden_standard_file, udpipe_file):#, syntaxnet_file, rusyntax_file):
+    """The function for comparing different syntactic parsers"""
 
     def count_accuracy(gs_arr, sp_arr, true, false, accuracy, accuracy_rel):
         """The function for counting an accuracy score for every sentence and on the whole"""
